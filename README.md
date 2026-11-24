@@ -2,24 +2,24 @@
 
 Designed by Sambo85. Standalone sampler for macOS and Windows, with VST3 and macOS Audio Unit plugins.
 
-[Download installers and corresponding source](https://github.com/MoPhatt-Studio/MoPhatt-Virtual/releases/latest)
+[Download the app installers](https://github.com/MoPhatt-Studio/MoPhatt-Virtual/releases/latest)
 
 ## Updates and privacy
 
-Updates are **manual only**. Under Options or the LCD EDIT menu, choose **Check for updates**. Before any update connection, the app asks permission. Declining keeps it offline. There are no scheduled update checks, telemetry or licence-server connections. Licence names, keys and device codes are not sent by the updater.
+Updates are manual only. Choose **Check for updates** under Options or LCD **EDIT > Settings > Updates**. Before each update connection, the app asks permission. Declining keeps it offline. No scheduled checks, telemetry or licence-server connections. Licence names, keys and device codes are not sent by the updater.
 
-With your permission, the updater reads a signed version feed from this repository, then downloads and verifies the signed installer. Connections go to github.com and GitHub delivery domains, including release-assets.githubusercontent.com. GitHub receives the IP address and normal connection information. No account is required to download. Operating-system installation permission may still be required. Save your project and close the DAW before replacing plugins.
-
-The updater is included from version 1.1.9 onwards. Install that version once using the installer. Sparkle (macOS) and WinSparkle (Windows) are embedded components, not separate programs you need to operate.
+With permission, it reads a signed feed from this repository and downloads and verifies the installer. Connections use github.com and GitHub delivery domains such as release-assets.githubusercontent.com. GitHub receives the IP address and ordinary connection data. OS installation permission may still be required. Close your DAW before updating plugins. Install version 1.1.9 once to obtain the updater.
 
 ## Playback
 
-Factory sample loop markers, selectable Default / Loop / One Shot / ADSR playback, independent Mono/Poly and 1–64 sample-voice limit, MIDI CC1 modulation routing for supported factory destinations, pitch bend, glide, MIDI Learn, user presets and pitch-preserving time stretch. Layered presets may use several sample voices for one MIDI note.
+Factory sample loop markers; Default / Loop / One Shot / ADSR modes; independent Mono/Poly and 1 / 2 / 4 / 8 / 16 / 32 / 64 sample voices; supported per-layer factory MIDI CC1 modulation; pitch bend; glide; MIDI Learn; user presets; pitch-preserving time stretch. Layered sounds can use several sample voices per note.
 
-This is a custom sampler implementation. Full original E-MU DSP, all modulation destinations and bit-identical hardware reproduction are not claimed. Unsupported factory data is preserved in the source bank metadata where available; original FX algorithms are not silently replaced and described as exact factory settings.
+LCD EDIT uses vertical menus: General, Effects, Settings and Information. Arrows or DATA select; HOME/ENTER opens and confirms; EDIT returns to the patch screen. Sample Mode is directly under General; Time Stretch is under Effects.
 
-## Source and notices
+This custom sampler does not reproduce every original E-MU DSP or modulation destination and is not claimed to be bit-identical to the hardware. Original factory FX assignments could not be established reliably. See the release notes and test report for scope and remaining limitations.
 
-Complete corresponding application sources, build instructions and third-party notices are provided with each release. Application source licensing is described in LICENSE.txt inside the source archives (GNU AGPL). E-MU content, names, trademarks and third-party components retain their respective rights. This project is not affiliated with or endorsed by E-MU.
+## Downloads and activation
 
-For an activation key, contact [@sambo85_ on Instagram](https://www.instagram.com/sambo85_/). Offline activation and existing licence formats remain supported.
+This repository distributes installers, signed update feeds and documentation. Application source archives are not published here. Third-party notices included in the installers remain applicable. E-MU content, names, trademarks and third-party components retain their respective rights. This project is not affiliated with or endorsed by E-MU.
+
+For an offline activation key, contact [@sambo85_ on Instagram](https://www.instagram.com/sambo85_/). Private generators, master licences and signing keys are never distributed.
